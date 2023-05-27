@@ -1,14 +1,14 @@
 .card {
   width: 200px;
-  height: 220px;
+  height: 225px;
   border-radius: 8px;
   background-color: #2b2a2a;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
 }
 
 .card:hover {
-  box-shadow: 0 4px 8px rgba(87, 86, 86, 0.1);
+  box-shadow: 0 4px 8px rgba(182, 182, 182, 0.596);
 }
 
 .artistImageContainer {
