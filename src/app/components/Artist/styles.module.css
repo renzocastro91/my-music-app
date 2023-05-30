@@ -1,10 +1,12 @@
 .card {
-  width: 200px;
-  height: 225px;
+  display: inline-block;
+  width: 120px;
+  height: 270px;
   border-radius: 8px;
   background-color: #2b2a2a;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.2s ease-in-out;
+  margin-right: 10px; /* Ajusta la separación horizontal entre los componentes */
 }
 
 .card:hover {
@@ -22,8 +24,9 @@
 }
 
 .artistImage {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
+  padding: 20px 0px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -36,9 +39,37 @@ h2 {
   margin-bottom: 4px;
   font-size: 16px;
   font-weight: bold;
+  text-align: left;
+  padding: 0px 15px 0px;
 }
 
 .category {
   font-size: 14px;
   color: #a7a7a7;
+  text-align: left;
+  padding: 0px 15px;
+}
+
+/* styles.module.css */
+
+.heartIconRed {
+  color: red;
+}
+
+.heartIconBlack {
+  color: black;
+}
+
+.enlargedCard {
+  width: 250px; /* Ajusta el ancho de la tarjeta según sea necesario */
+  height: 350px; /* Ajusta la altura de la tarjeta según sea necesario */
+}
+
+.favoriteButton {
+  margin-left: auto;
+  margin-top: 8px;
+  padding: 8px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
