@@ -1,16 +1,19 @@
 import styles from "./styles.module.css";
 
-function Search(){
-    return (
-        <form>
-            <div>
-                <label htmlFor= "song">Buscar Canción</label>
-                <input type = "text" id= "song" placeholder="Sorry Justin Bieber"></input>
-            </div>
-            <button type="submit">Buscar</button>
-        </form>
-            
-    )
+function Search() {
+  return (
+    <form className={styles.searchForm}>
+      <div className={styles.searchContainer}>
+        <label htmlFor="song" className={styles.searchLabel}>
+          Buscar Canción
+        </label>
+        <input type="text" id="song" className={styles.searchInput} placeholder="Sorry Justin Bieber" />
+      </div>
+      <button type="submit" className={styles.searchButton}>
+        Buscar
+      </button>
+    </form>
+  );
 }
 
-export default Search
+export default Search;
